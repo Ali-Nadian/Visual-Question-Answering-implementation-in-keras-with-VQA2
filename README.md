@@ -26,4 +26,27 @@ link1
 link2
 
 ------------------
+Running (in the following order) :
+1. run 
+prepareTrainingTextData.py
+The code has comments to explain everything step by step.
+The code creates top answers, answer<->integer dictionary, filtered training data by top answers, answer tokens, question tokens, image path, image position 
+
+
+2. run 
+prepareValidaitonTextData.py
+
+3. run
+prepareTrainingImageFeatures.py (you can extract features from scratch or use pretrained features)
+prepareValidationImageFeatures.py (the same as above)
+
+-----------------------
+now you have your data ready
+run train.py to train your model 
+run RunModelOnEvaluationData.py to get the class probability distribution over all validation images. 
+run EvaluationDemoOnValidationData.py to evalute your results 
+* training data were used for training and validation
+* validition data were used for test
+
+
 
