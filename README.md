@@ -22,9 +22,7 @@ Images:
 If your want to do everything from scratch download the Training and validation images 
 
 If you only want to use features donwload train/validation features extracted from the InceptionV3
-link1
-link2
-
+DOI: 10.6084/m9.figshare.11763636
 ------------------
 Running (in the following order) :
 1. run 
